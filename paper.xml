@@ -42,43 +42,44 @@
 	<!-- color definitions -->
 	<color name="ink"				value="#000000" />
 	<color name="paper"				value="#F8F6F1" />
+	<color name="yellow"			value="#E8E281" />
 	<color name="pale-yellow"		value="#FFFFD9" />
-	<color name="orange"			value="#FFC300" />
 	<color name="red"				value="#CC3E28" />
 	<color name="light-blue"		value="#ABD3EA" />
 	<color name="deep-blue"			value="#1D7AD6" />
 	<color name="green"				value="#216609" />
 	<color name="light-brown"		value="#E5D5B7" />
 	<color name="dark-brown"		value="#8C7451" />
+ 	<color name="plum"				value="#5C21A5"	/>
 
 	<!-- Global Settings -->
 	<style name="text" 				background="paper" />
 	<style name="current-line"		background="pale-yellow" />
-	<style name="selection"			foreground="ink" background="orange" />
+	<style name="selection"			foreground="ink" background="yellow" />
 	<style name="cursor"			foreground="ink" />
-	<style name="line-numbers"		background="paper"/>
-	<style name="right-margin"		background="light-brown"/>
-	<style name="draw-spaces"		foreground="light-blue"/>
+	<style name="line-numbers"		background="light-brown" />
+	<style name="right-margin"		background="light-brown" />
+	<style name="draw-spaces"		foreground="light-blue" />
 	
 	<!-- Bracket Matching -->
 	<style name="bracket-match"		foreground="deep-blue" background="light-blue" bold="true"/>
 	<!-- this doesn't seem to be working -->
-	<style name="bracket-mismatch"	background="red" bold="true"/>
+	<style name="bracket-mismatch"	foreground="paper" background="red" bold="true"/>
 	
 	<!-- Search Matching -->
 	<style name="search-match"		background="light-blue"/>
 
-	<!-- Comments -->
+	<!-- Comments & Markup -->
 	<style name="def:comment"		foreground="deep-blue" />
 	<style name="def:shebang"		foreground="deep-blue" />
 	<style name="def:doc-comment"	foreground="dark-brown" />
+	<style name="def:heading"		foreground="plum" bold="true" />
+	<style name="def:list-marker"	foreground="green" />
+	<style name="def:inline-code"	foreground="dark-brown" />
 
-	<!-- Everything else -->
+	<!-- Code -->
+	<style name="def:constant"		foreground="plum"/>
 	<style name="def:string"		foreground="green"/>
 
-	<!-- FIXME Some better styles for Markdown headings -->
-	<!--
-	<style name="markdown:heading"	foreground="deep-blue" />
-	-->
 
 </style-scheme>
