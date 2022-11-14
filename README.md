@@ -16,6 +16,8 @@ theme for VS Code. Its minimal approach to highlighting is
 inspired by
 [Alabaster](https://github.com/tonsky/vscode-theme-alabaster).
 
+![Screenshot of Coffee Paper in Mousepad](screenshot.png)
+
 ## Installation
 
 Clone the repo anywhere in your home directory. Then create
