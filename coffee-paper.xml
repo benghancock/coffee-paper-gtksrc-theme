@@ -84,8 +84,8 @@
   <style name="def:inline-code" foreground="green" />
   <style name="def:emphasis" italic="true"/>
   <style name="def:deletion" strikethrough="true"/>
-  <style name="def:link-text" foreground="light-blue"/>
-  <style name="def:link-symbol" foreground="blue" bold="true"/>
+  <style name="def:link-text" foreground="green"/>
+  <style name="def:link-symbol" foreground="deep-blue" />
   <style name="def:link-destination" underline="single"/>
   <style name="def:strong-emphasis" bold="true"/>
   <style name="def:preformatted-section" foreground="green" />
