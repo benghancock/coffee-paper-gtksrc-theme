@@ -45,13 +45,14 @@
   <color name="ink" value="#000000" />
   <color name="paper" value="#FCF8F2" />
   <color name="yellow" value="#FFFCBA" />
+  <color name="dark-purple" value="#7350A0" />
   <color name="light-purple" value="#EFE5FC" />
-  <color name="light-red" value="#FFBABC" /> <!-- unused -->
+  <color name="light-red" value="#FFBABC" />
   <color name="deep-red" value="#c43a31" />
   <color name="light-blue" value="#ABD3EA" />
   <color name="deep-blue" value="#1C589E" />
   <color name="green" value="#216609" />
-  <color name="light-brown" value="#EAD3A8" /> <!-- unused -->
+  <color name="light-brown" value="#EAD3A8" />
   <color name="dark-brown" value="#7C3E11" />
   <color name="light-orange" value="#FFD9BA" />
 
@@ -91,8 +92,8 @@
   <style name="def:preformatted-section" foreground="green" />
 
   <!-- Language-Specific Styles -->
-  <style name="xml:tags" foreground="green"/>
-  <style name="xml:attribute-name" foreground="green"/>
+  <style name="xml:element-name" foreground="dark-purple" />
+  <style name="xml:attribute-name" foreground="green" />
   <style name="xml:namespace" foreground="light-brown" />
 
   <style name="diff:added-line" background="#B6E0AF"/>
